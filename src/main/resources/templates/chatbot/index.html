@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>어린 왕자와의 대화</title>
+    <link rel="stylesheet" href="chatbot/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<div class="chat-container">
+    <header>
+        <div class="profile-info">
+            <span class="avatar">🌹</span>
+            <h1>어린 왕자</h1>
+        </div>
+        <p class="subtitle">B-612 소행성에서 온 친구</p>
+    </header>
+
+    <main id="chat-window">
+        <div class="message bot">
+            안녕? 나는 B-612 소행성에서 왔어. 너와 길들여지는 사이가 될 수 있을까?
+        </div>
+    </main>
+
+    <div id="loading" class="hidden">
+        <i class="fas fa-spinner fa-spin"></i> 어린 왕자가 생각 중이에요...
+    </div>
+
+    <form id="chat-form">
+        <input type="text" id="user-input" placeholder="질문을 입력하세요..." required>
+        <button type="submit" id="send-btn">
+            <i class="fas fa-paper-plane"></i>
+        </button>
+    </form>
+</div>
+<script src="chatbot/chat.js"></script>
+</body>
+</html>

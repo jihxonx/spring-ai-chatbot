@@ -24,9 +24,9 @@ public class ChatbotController {
     @ResponseBody
     @PostMapping(
             consumes = MediaType.APPLICATION_JSON_VALUE,
-            produces = MediaType.APPLICATION_NDJSON_VALUE
+            produces = MediaType.TEXT_PLAIN_VALUE
     )
-    public Flux<String> message(@RequestBody String question) {
+    public String message(@RequestBody String question) {
         return service.chat(question);
     }
 }

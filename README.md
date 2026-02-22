@@ -5,18 +5,18 @@
 
 ---
 
-## 🛠 기술 스택
+## 🛠 Tech Stack
 
-| 항목 | 내용 |
-|------|------|
-| Language | Java 17 |
-| Framework | Spring Boot 4.0.2 |
-| AI Library | Spring AI 2.0.0-M2 |
-| AI Model | OpenAI GPT-4o-mini |
-| Build Tool | Gradle |
-| 기타 | Lombok, Thymeleaf, WebFlux |
+- Java 17
+- Spring Boot
+- Spring AI 2.0.0-M
+- OpenAI GPT-4o-mini 
+- Gradle
+- Lombok
+- Thymeleaf
+- WebFlux
 
----
+
 
 ## 📁 프로젝트 구조
 
